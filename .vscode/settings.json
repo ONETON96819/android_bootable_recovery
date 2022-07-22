@@ -1,6 +1,7 @@
 {
     "makefile.extensionOutputFolder": "./.vscode",
-    "fileScriptRunner.script": [
-    
-    ]
+    "fileScriptRunner.script": 
+    {   {} ,fileScriptRunner.script;}
 }
+    
+    
