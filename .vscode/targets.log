@@ -10,14 +10,13 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Thu Jul 21 23:48:03 2022
+# Make data base, printed on Fri Jul 22 03:40:00 2022
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
- 
 ?F = $(notdir $?)
 # environment
 VSCODE_LOG_NATIVE = false
@@ -48,7 +47,7 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/p6/bmp5nvt502l362np1jzkf67w0000gn/T/vscode-ipc-ce098245-19dd-4eb6-901f-adea5338fda9.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/p6/bmp5nvt502l362np1jzkf67w0000gn/T/vscode-ipc-00c6b2a9-2660-43ce-83bf-826072bce037.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -161,7 +160,6 @@ SDKMAN_CANDIDATES_DIR = /Users/williamoz/.sdkman/candidates
 LC_ALL = C
 # automatic
 ^F = $(notdir $^)
- 
 # default
 SUFFIXES := 
 # default
@@ -240,6 +238,7 @@ GNUmakefile:
 #  File has been updated.
 #  Failed to be updated.
 # variable set hash-table stats:
+ 
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # files hash-table stats:
@@ -255,6 +254,6 @@ GNUmakefile:
 # strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
 # strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Thu Jul 21 23:48:03 2022
+# Finished Make data base on Fri Jul 22 03:40:00 2022
 
  
